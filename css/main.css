@@ -1,0 +1,1858 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+header {
+    display: flex;
+    padding: 0px 40px;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: center;
+    margin: 22px 0px;
+    gap: 85px;
+}
+
+/*.shadowBlock {
+    background-image: url(/image/Tablet.png);
+    background-color: #4A86FF66;
+    width: 100%;
+    height: 100%;
+}*/
+body {
+    padding: 0px 40px;
+}
+
+.elementsPhoto {
+    display: flex;
+}
+
+.HatunaPhoto {
+    width: 55px;
+    height: 50px;
+}
+
+.TxTHatuna {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.TxTHatunA {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.TxTanimalshelter {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.TxTanimalshelteR {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: -20px;
+}
+
+.elements {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+
+.TxTelementsBlue {
+    color: var(--Blue, #4A86FF);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lineHeader {
+    display: flex;
+    width: 80px;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+    border-bottom: 1px solid var(--Blue, #4A86FF);
+}
+
+.TxTelements {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s ease;
+}
+
+.TxTelements:hover {
+    text-decoration: underline;
+}
+
+.TxTelementS {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+}
+
+.TxTelementsSVG {
+    background-image: url(/image/Arrows.svg);
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    margin-top: 6px;
+
+
+}
+
+.elementsButton {
+    width: 213px;
+    height: 76px;
+    padding: 16px 42px;
+    gap: 10px;
+    border-radius: 25px;
+    background: var(--Red, #EF3959);
+    box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.40);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.elementsButton:hover {
+    transform: scale(1.1);
+}
+
+.TxTelementsButton {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.blockTITLE {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0px 220px;
+
+
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.titleCTA {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.subTitleCTA {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    margin-top: 40px;
+}
+
+.buttonTitle {
+    display: flex;
+    width: 328px;
+    height: 102px;
+    padding: 16px 32px;
+    margin-top: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 25px 25px 25px 0px;
+    background: var(--Red, #EF3959);
+    box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.40);
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.buttonTitle:hover {
+    transform: scale(1.1);
+}
+
+.TxTSelect {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.hexagonONE {
+    background-image: url(/image/Rectangle\ 23.svg);
+    width: 579.82px;
+    height: 591.871px;
+    flex-shrink: 0;
+
+}
+
+.hexagonTWO {
+    background-image: url(/image/Rectangle\ 24.svg);
+    width: 580.063px;
+    height: 591.662px;
+    transform: rotate(-3.54deg);
+    flex-shrink: 0;
+}
+
+.titleTxTaboutUS {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    gap: 60px;
+
+
+}
+
+.shell {
+    background-image: url(/image/Rectangle\ 15.png);
+    width: 551px;
+    height: 607.523px;
+    flex-shrink: 0;
+    border-radius: 0px 330px 0px 124px;
+}
+
+.PhotoDogtitleTxTaboutUS {
+    width: 532px;
+    height: 608px;
+    flex-shrink: 0;
+    border-radius: 0px 330px 0px 124px;
+    background: url(/image/e61160dec4fbf49996c0e5289eba957f.webp) lightgray 50% / cover no-repeat;
+}
+
+.blockTWOtitleTxTaboutUS {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-bottom: 220px;
+}
+
+.blockTitleCTA {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.blockSubTitleCTA {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.buttonBLockTitleCTA {
+    background-image: url(/image/photo_2024-04-28_11-51-54.jpg);
+    display: flex;
+    width: 442px;
+    height: 102px;
+    padding: 21px 82px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.buttonBLockTitleCTA:hover {
+    transform: scale(1.1);
+}
+
+
+.blockAnimalsTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.titleanimals {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.subTitleanimalS {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+.BlockPhotos {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.BlockPhotos__Animals {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 80px;
+}
+
+
+.BlockPhotos__elements_Animals img {
+    width: 470px;
+    height: 450px;
+    flex-shrink: 0;
+    border-radius: 0px 80px 0px 0px;
+
+}
+
+.BlockPhotos__elements_Animals h3 {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.BlockPhotos__elements_Animals p {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+/* .buttonSVG {
+    background-image: url(/image/Ellipse\ 16.svg);
+    width: 76px;
+    height: 76px;
+    transform: rotate(-50deg);
+    flex-shrink: 0;
+    fill: rgba(255, 255, 255, 0.40);
+    filter: drop-shadow(1px 2px 5px #A4C2FF);
+    padding: 16px 19.62px 13.24px 9.62px;
+    margin: -76px 0px 0px 405px;
+    transition: all 0.5s ease;
+} */
+
+.buttonSVG:hover {
+    transform: scale(1.1);
+}
+
+.blockSVG {
+    background-image: url(/image/SVG.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+    flex-shrink: 0;
+    filter: drop-shadow(0px 0px 0px rgba(0, 0, 0, 0.10)) drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.10)) drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.09)) drop-shadow(0px 5px 3px rgba(0, 0, 0, 0.05)) drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.01)) drop-shadow(0px 15px 4px rgba(0, 0, 0, 0.00));
+}
+
+.txtSUBblockAnimals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+
+}
+
+.butshowmore {
+    background-image: url(/image/button.png);
+    width: 442px;
+    height: 102px;
+    gap: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.butshowmore:hover {
+    transform: scale(1.1);
+}
+
+.TxTourterms {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.Blockourterms {
+    margin-top: 64px;
+    margin-bottom: 186px;
+
+}
+
+.Blockourterms__element {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.Blockourterms__element__elements h3 {
+    color: var(--Blue, #4A86FF);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.Blockourterms__element__elements p {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blockPhotoOurTerms {
+    width: 417px;
+    height: 376px;
+    flex-shrink: 0;
+    border-radius: 0px 240px 0px 120px;
+    background: url(/image/frame.webp)lightgray 50% / cover no-repeat;
+}
+
+.frame {
+    background-image: url(/image/RectangleF.png);
+    width: 417px;
+    height: 376.523px;
+    flex-shrink: 0;
+    flex-shrink: 0;
+    border-radius: 0px 240px 0px 120px;
+}
+
+
+.framecircle {
+    width: 374px;
+    height: 378.523px;
+    flex-shrink: 0;
+    border-radius: 225px;
+    background-image: url(/image/RectangleC.png);
+
+}
+
+.blockPhotoOurTermsC {
+    width: 374px;
+    height: 378px;
+    flex-shrink: 0;
+    border-radius: 225px;
+    background: url(/image/frameC.webp)lightgray 50% / cover no-repeat;
+}
+
+.framereverse {
+    width: 418px;
+    height: 377.523px;
+    flex-shrink: 0;
+    border-radius: 240px 0px 120px 0px;
+    background-image: url(/image/RectangleR.png);
+
+}
+
+.blockPhotoOurTermsR {
+    width: 418px;
+    height: 377px;
+    flex-shrink: 0;
+    border-radius: 240px 0px 120px 0px;
+    background: url(/image/frameR.webp)lightgray 50% / cover no-repeat;
+}
+
+.blocklocation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+
+}
+
+.TxtSublocation {
+    color: var(--bleck-dark-blue, #202053);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.PhotoLocation {
+    background-image: url(/image/location.webp);
+    width: 1530px;
+    height: 800px;
+    flex-shrink: 0;
+    padding: 512px 0px 0px 1014.9px;
+}
+
+.locationSVG {
+    background-image: url(/image/Location.svg);
+    width: 36.508px;
+    height: 52px;
+    flex-shrink: 0;
+}
+
+.blockcontacts {
+    margin-top: 120px;
+
+}
+
+.titleTxtcontacts {
+    color: var(--bleck-dark-blue, #202053);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.subTxtTitle {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.subTxtBlue {
+    color: var(--Blue, #4A86FF);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.subTxtADTLEM {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.subTxtDoyouhavea {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 64px;
+    gap: 20px;
+}
+
+.bloclk {
+    display: flex;
+    flex-direction: row;
+    margin: -65px 0px 0px 120px;
+}
+
+.bloclK {
+    margin: -65px 0px 0px 250px;
+}
+
+.contactsPhoto {
+    border-radius: 0px 260px 0px 122px;
+    background: url(/image/dani.webp) lightgray -48.787px -204.721px / 107.818% 252.044% no-repeat;
+    width: 624px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.blockcontactsdector {
+    width: 624px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 0px 260px 0px 122px;
+    background-image: url(/image/decor.png);
+}
+
+.blockSpeseBetween {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.blockHelp {
+    margin-top: 133px;
+    gap: 65px;
+}
+
+.Howtohelp {
+    color: var(--bleck-dark-blue, #202053);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.blockblockframe {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.blockframe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 1130px;
+    height: 419px;
+    flex-shrink: 0;
+    border-radius: 80px;
+    background: rgba(255, 255, 255, 0.99);
+    background-image: url(/image/рамка.png);
+    background-repeat: no-repeat;
+    gap: 24px;
+
+}
+
+.titleBlockframe {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 60px;
+}
+
+.subTitleBlockframe {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.blockbuttonblockframe {
+    border-radius: 25px 25px 25px 0px;
+    background: var(--Red, #EF3959);
+    box-shadow: 0px 0px 40px 0px rgba(239, 57, 89, 0.40);
+    display: flex;
+    width: 442px;
+    height: 102px;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.blockbuttonblockframe:hover {
+    transform: scale(1.1);
+}
+
+.buttonblockframe {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+}
+
+.lineBody {
+    margin-top: 100px;
+    color: rgb(46, 10, 112);
+    width: 100%;
+    height: 5%;
+}
+
+.footerPhoto {
+    display: flex;
+}
+
+.subTxttitleFooter {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FooterTop {
+    padding: 48px 40px 0px 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.blocktitleFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    width: 212px;
+
+}
+
+.blockIconFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.IconFaceBook {
+    background-image: url(/image/Facebook.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.IconInstagram {
+    background-image: url(/image/Instagram.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.IconTelegram {
+    background-image: url(/image/Telegram.png);
+    background-repeat: no-repeat;
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.blockTXTfooter {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 233px;
+    transition: all 0.5s ease;
+}
+
+.blockTXTfooter:hover {
+    text-decoration: underline;
+}
+
+.TxTfooter {
+    color: var(--bleck-dark-blue, #202053);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Footerbottom {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+}
+
+.TxTrights {
+    color: var(--Bleck-Typography, #404040);
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@media screen and (max-width: 1590px) {
+    .BlockPhotos__elements_Animals img {
+        width: 400px;
+        height: 380px;
+    }
+
+}
+
+
+@media screen and (max-width: 1030px) {
+    .BlockPhotos__elements_Animals img {
+        width: 270px;
+        height: 250px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .BlockPhotos__elements_Animals img {
+        width: 200px;
+        height: 180px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .BlockPhotos__elements_Animals h3 {
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .BlockPhotos__elements_Animals h3 {
+        font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .BlockPhotos__elements_Animals p {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .BlockPhotos__elements_Animals p {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .hexagonONE {
+        background-image: url(/image/DOGdector1.png);
+        width: 327px;
+        height: 325px;
+        transform: rotate(-3.54deg);
+        flex-shrink: 0;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .hexagonTWO {
+        background-image: url(/image/DOGdector2.png);
+        width: 327px;
+        height: 325px;
+        flex-shrink: 0;
+        transform: rotate(-8.54deg);
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .PhotoDog {
+        background-image: url(/image/DOG2.png);
+        width: 286px;
+        height: 370px;
+        flex-shrink: 0;
+        transform: rotate(4deg);
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .PhotoLocation {
+        background-image: url(/image/LOCmain.png);
+        width: 1024px;
+        height: 500px;
+        flex-shrink: 0;
+        padding: 189px 0px 0px 645.12px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .PhotoLocation {
+        background-image: url(/image/LOCmain.png);
+        width: 800px;
+        height: 500px;
+        flex-shrink: 0;
+        padding: 189px 0px 0px 645.12px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .PhotoLocation {
+        background-image: url(/image/карта.png);
+        width: 375px;
+        height: 160px;
+        flex-shrink: 0;
+        padding: 60.48px 0px 0px 236.25px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .locationSVG {
+        background-image: url(/image/bbsvg.png);
+        background-repeat: no-repeat;
+        width: 16px;
+        height: 20px;
+        flex-shrink: 0;
+        padding: 60.48px 0px 0px 236.25px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxtSublocation {
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .TxtSublocation {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTelements {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTelements {
+        font-size: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTelementsBlue {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTelementsBlue {
+        font-size: 0px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .lineHeader {
+        width: 60px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .lineHeader {
+        width: 0px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTelementsSVG {
+        margin-top: 2px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTelementS {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTelementS {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .elementsButton {
+        width: 167px;
+        height: 56px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .elementsButton {
+        width: 130px;
+        height: 48px;
+        padding: 12px 23px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .elementsButton {
+        width: 120px;
+        height: 48px;
+        padding: 12px 23px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTelementsButton {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTHatuna {
+        font-size: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTHatuna {
+        font-size: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTHatunA {
+        font-size: 30px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTHatunA {
+        font-size: 25px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .TxTHatuna {
+        font-size: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .HatunaPhoto {
+        width: 45px;
+        height: 40px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTanimalshelter {
+        font-size: 13px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTanimalshelter {
+        font-size: 12px;
+        margin-top: -15px;
+
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTanimalshelteR {
+        font-size: 13px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTanimalshelteR {
+        font-size: 12px;
+        margin-top: -15px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .TxTanimalshelter {
+        font-size: 0px;
+        margin-top: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .elements {
+        gap: 10px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .elements {
+        gap: 7px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .titleCTA {
+        font-size: 44px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .titleCTA {
+        font-size: 30px;
+
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .subTitleCTA {
+        font-size: 20px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .subTitleCTA {
+        font-size: 15px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .buttonTitle {
+        width: 260px;
+        height: 72px
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .buttonTitle {
+        width: 242px;
+        height: 66px
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .TxTSelect {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTourterms {
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockframe {
+        background-image: url(/image/рамка2.png);
+        width: 960px;
+        height: 419px;
+        flex-shrink: 0;
+        border-radius: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockframe {
+        background-image: url(/image/рамка2.png);
+        width: 700px;
+        height: 419px;
+        flex-shrink: 0;
+        border-radius: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockPhotoOurTerms {
+        width: 299px;
+        height: 270px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockPhotoOurTerms {
+        width: 230px;
+        height: 170px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockPhotoOurTermsC {
+        width: 304px;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockPhotoOurTermsC {
+        width: 204px;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .blockPhotoOurTermsC {
+        width: 224px;
+        height: 220px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockPhotoOurTermsR {
+        background-image: url(/image/main4.png);
+        width: 300px;
+        height: 270px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockPhotoOurTermsR {
+        background-image: url(/image/main4.png);
+        width: 230px;
+        height: 170px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .frame {
+        background-image: url(/image/main1.png);
+        width: 299px;
+        height: 270px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .frame {
+        background-image: url(/image/main1.png);
+        width: 0px;
+        height: 0px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .framecircle {
+        background-image: url(/image/main2.png);
+        width: 300px;
+        height: 304px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .framecircle {
+        background-image: url(/image/main2.png);
+        width: 0px;
+        height: 0px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .framereverse {
+        background-image: url(/image/main3.png);
+        width: 300px;
+        height: 270px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .framereverse {
+        background-image: url(/image/main3.png);
+        width: 0px;
+        height: 0px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .Blockourterms__element__elements h3 {
+        font-size: 28px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .Blockourterms__element__elements h3 {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .Blockourterms__element__elements p {
+        font-size: 19px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .Blockourterms__element__elements p {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .titleTxtcontacts {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .subTxtTitle {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .subTxtTitle {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .subTxtBlue {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .subTxtBlue {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .subTxtADTLEM {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .subTxtADTLEM {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .subTxtADTLEM {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .bloclK {
+        margin: -44px 0px 0px 200px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .bloclK {
+        margin: -38px 0px 0px 140px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .blockSpeseBetween {
+        margin-top: 4px;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .contactsPhoto {
+        background-image: url(/image/Image3@2x.png)lightgray -35.73px -140.234px no-repeat;
+        width: 460px;
+        height: 274px;
+        flex-shrink: 0;
+        border-radius: 0px 260px 0px 122px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .contactsPhoto {
+        background-image: url(/image/Image3@2x.png)lightgray -35.73px -140.234px no-repeat;
+        width: 340px;
+        height: 270px;
+        flex-shrink: 0;
+        border-radius: 0px 260px 0px 122px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockcontactsdector {
+        background-image: url(/image/decorMain.png);
+        width: 457px;
+        height: 274px;
+        flex-shrink: 0;
+        border-radius: 0px 260px 0px 122px;
+
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockcontactsdector {
+        background-image: url(/image/decorMain.png);
+        width: 340px;
+        height: 274px;
+        flex-shrink: 0;
+        border-radius: 0px 260px 0px 122px;
+
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .PhotoDogtitleTxTaboutUS {
+        width: 450px;
+        height: 488px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .PhotoDogtitleTxTaboutUS {
+        background-image: url(/image/blockDog.png);
+        width: 316px;
+        height: 320px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .shell {
+        background-image: url(/image/shellРамка.png);
+        width: 467px;
+        height: 488.488px;
+        flex-shrink: 0;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .shell {
+        width: 0px;
+        height: 0px;
+        flex-shrink: 0;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .blockTitleCTA {
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockTitleCTA {
+        font-size: 24px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    .blockSubTitleCTA {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockSubTitleCTA {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .buttonBLockTitleCTA {
+        background-image: url(/image/Button\ more.png);
+        width: 327px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockTWOtitleTxTaboutUS {
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .titleTxTaboutUS {
+        margin-top: 50px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .titleTxTaboutUS {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockTITLE {
+        margin: 40px 0px 120px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .blockTITLE {
+
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .titleanimals {
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .subTitleanimalS {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .butshowmore {
+        background-image: url(/image/but.png);
+        width: 354px;
+        height: 80px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .Howtohelp {
+        font-size: 38px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .titleBlockframe {
+        font-size: 34px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .subTitleBlockframe {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blockbuttonblockframe {
+        width: 325px;
+        height: 82px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .buttonblockframe {
+        font-size: 26px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .subTxttitleFooter {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .blocktitleFooter {
+        gap: 12px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTfooter {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .Footerbottom {
+        padding: 0px 0px 40px;
+    }
+
+}
+
+@media screen and (max-width: 770px) {
+    .TxTrights {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .Blockourterms__element {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: flex-start;
+    }
+
+}
+
+
+@media screen and (max-width: 1030px) {
+    body {
+        padding: 0px 32px;
+    }
+
+}
+
+@media screen and (max-width: 1030px) {
+    footer {
+        padding: 0px 0px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    nav {
+        gap: 0px;
+    }
+}
