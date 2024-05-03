@@ -1004,6 +1004,13 @@ body {
 
 }
 
+@media screen and (max-width: 320px) {
+    .HatunaPhotoS {
+        width: 140%;
+    }
+
+}
+
 @media screen and (max-width: 1024px) {
     .TxTelementsBlue {
         font-size: 17px;
@@ -1284,7 +1291,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-
     .buttonshowmore {
         width: 390px;
         height: 80px;
@@ -1293,7 +1299,6 @@ body {
 }
 
 @media screen and (max-width: 425px) {
-
     .buttonshowmore {
         width: 340px;
         height: 71px;
@@ -1301,8 +1306,16 @@ body {
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
 
+    .buttonshowmore {
+        width: 250px;
+        height: 61px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
     .Txtshowmore {
         font-size: 28px;
     }
@@ -1310,9 +1323,17 @@ body {
 }
 
 @media screen and (max-width: 425px) {
-
     .Txtshowmore {
         font-size: 22px;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .Txtshowmore {
+        font-size: 10px;
+
     }
 
 }
@@ -1681,6 +1702,20 @@ body {
 
 }
 
+@media screen and (max-width: 2560px) {
+    .subTxttitleFooter {
+        font-size: 21px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .subTxttitleFooter {
+        font-size: 19px;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
     .subTxttitleFooter {
         font-size: 10px;
@@ -1688,9 +1723,30 @@ body {
 
 }
 
+@media screen and (max-width: 425px) {
+    .subTxttitleFooter {
+        font-size: 19px;
+    }
+
+}
+
 @media screen and (max-width: 320px) {
     .subTxttitleFooter {
         font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 2560px) {
+    .blocktitleFooter {
+        width: 464px;
+    }
+
+}
+
+@media screen and (max-width: 2560px) {
+    .blocktitleFooter {
+        width: 464px;
     }
 
 }
@@ -1703,8 +1759,30 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .blocktitleFooter {
+        gap: 30px;
+        width: 212px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
     .TxTfooter {
         font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .TxTfooter {
+        font-size: 15px;
+    }
+
+}
+
+@media screen and (max-width: 1440px) {
+    .FooterTop {
+        gap: 0px;
     }
 
 }
@@ -1714,6 +1792,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 40px;
     }
 
 }
@@ -1728,16 +1807,20 @@ body {
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 2560px) {
     .blockTXTfooteR {
         display: flex;
-        flex-direction: row;
-        height: 160px;
-        justify-content: space-evenly;
-        gap: 16px;
-
+        gap: 20px;
+        justify-content: space-around;
     }
+}
 
+@media screen and (max-width: 1440px) {
+    .blockTXTfooteR {
+        display: flex;
+        gap: 255px;
+        margin-left: 0px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1749,28 +1832,25 @@ body {
 
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 425px) {
     .blockTXTfooteR {
         display: flex;
-        gap: 255px;
-        margin-left: 90px;
+        flex-direction: row;
+
     }
+
 }
 
-@media screen and (max-width: 375px) {
-    .blockTXTfooteR {
-        display: flex;
-        gap: 255px;
-        margin-left: 20px;
-    }
-}
+
+
 
 @media screen and (max-width: 2560px) {
-    .blockTXTfooteR {
+    .blocksubTxTfooteR {
+        flex-direction: column;
         display: flex;
-        gap: 20px;
-        justify-content: space-around;
+
     }
+
 }
 
 @media screen and (max-width: 425px) {
@@ -1778,26 +1858,57 @@ body {
         flex-direction: column;
 
     }
-
 }
 
 @media screen and (max-width: 425px) {
     .blocksubTxTfooteR {
         flex-direction: column;
         display: flex;
-
-
+        margin-right: -27px;
     }
 
 }
 
-@media screen and (max-width: 2560px) {
+@media screen and (max-width: 375px) {
     .blocksubTxTfooteR {
+        display: flex;
+        margin-right: -7px;
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .blocksubTxTfooteRR {
         flex-direction: column;
         display: flex;
 
     }
 
+}
+
+@media screen and (max-width: 425px) {
+    .blocksubTxTfooteRR {
+        flex-direction: column;
+        display: flex;
+        margin-right: -40px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .blocksubTxTfooteRR {
+        flex-direction: column;
+        display: flex;
+        margin-right: -39px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .blockTXTfooteRR {
+        display: flex;
+        gap: 255px;
+        margin-left: 20px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -1820,5 +1931,10 @@ body {
         gap: 20px;
         justify-content: flex-start;
     }
+
+}
+
+@media screen and (max-width: 425px) {
+    .blockPhotoOurTermsC {}
 
 }
