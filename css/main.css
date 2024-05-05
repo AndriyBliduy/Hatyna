@@ -111,6 +111,7 @@ body {
 
 .elementsPhoto {
     display: flex;
+    flex-direction: row;
 }
 
 .HatunaPhotoS {
@@ -1208,7 +1209,7 @@ body {
 
 @media screen and (max-width: 425px) {
     .titleCTA {
-        font-size: 50px;
+        font-size: 37px;
 
     }
 
@@ -1240,7 +1241,7 @@ body {
 
 @media screen and (max-width: 425px) {
     .subTitleCTA {
-        font-size: 24px;
+        font-size: 26px;
 
     }
 
@@ -1995,6 +1996,38 @@ body {
     .IconFooter {
         width: 40px;
         height: 40px;
+    }
+
+}
+
+@media screen and (max-width: 2560px) {
+    .titlePhotoHatyna {
+        width: 0px;
+        height: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .titlePhotoHatyna {
+        width: 55px;
+        height: 50px;
+        margin-top: -15px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .HatunaPhotoS {
+        width: 0px;
+        height: 0px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        justify-content: flex-start;
     }
 
 }
