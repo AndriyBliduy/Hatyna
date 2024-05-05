@@ -2010,7 +2010,7 @@ body {
 
 @media screen and (max-width: 768px) {
     .titlePhotoHatyna {
-        width: 55px;
+        width: 65px;
         height: 50px;
         margin-top: -15px;
     }
@@ -2028,6 +2028,7 @@ body {
 @media screen and (max-width: 768px) {
     nav {
         justify-content: flex-start;
+        gap: 47px;
     }
 
 }
