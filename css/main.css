@@ -231,6 +231,11 @@ body {
     line-height: normal;
 }
 
+.IconFooter {
+    background-image: url(/image/icon.png);
+    background-repeat: no-repeat;
+}
+
 .blockTITLE {
     display: flex;
     justify-content: space-between;
