@@ -1598,7 +1598,7 @@ body {
 
 @media screen and (max-width: 425px) {
     .elements {
-
+        gap: 30px;
         margin-right: 68px;
     }
 
