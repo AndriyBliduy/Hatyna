@@ -457,7 +457,7 @@ body {
 }
 
 .buttonSVG:hover {
-    transform: scale(1.2);
+    transform: translateX(10px);
 }
 
 .BlockPhotos__elements_Animals_subTitle__Svg {
